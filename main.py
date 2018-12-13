@@ -4,9 +4,9 @@ from xlutils3.copy import copy#xlutils3对excel进行二次重写操作
 import re#正则表达式模块
 import os#系统模块
 
-path = r'C:\Users\Administrator\Desktop\18物联网c语言第三次作业'#提取文件名字的文件夹的位置
+path = r'C:\Users\Administrator\Desktop\18物联网班c语言第三次作业'#提取文件名字的文件夹的位置
 file_name = r'C:\Users\Administrator\Desktop\点名\第三次作业统计.xls'#最后要创建的excel的路径
-main_name = r'C:\Users\Administrator\Desktop\物理网名单.xls'#班级名单的路径
+main_name = r'C:\Users\Administrator\Desktop\物联网班名单.xls'#班级名单的路径
 n_str = r'(1812020)?\d{2,3}'#此正则可以匹配学号
 rows0=[]#存储提取文件名字(提取后的学号)后的列表
 numbers=[]#存储物理网名单.xls中的学号
