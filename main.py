@@ -53,7 +53,7 @@ def read_ex():#读取物理网名单.xls中的学号和姓名
         numbers.append(num_value)
         students.append(st_name)
 
-def who_finishi():#判断新建表中哪儿交了
+def who_finish():#判断新建表中哪儿交了
     table = xlrd.open_workbook(file_name)
     sheet = table.sheet_by_name('统计')
     rows = sheet.nrows
